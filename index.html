@@ -33,6 +33,7 @@
     .qr-container{
       max-width: 400px;
       display: grid;
+
       margin-inline: auto;
       padding: 20px;
       border-radius: 15px;
@@ -40,7 +41,7 @@
       transform: translateY(200px);
     }
     img{
-      width: 100%;
+    width: 100%;
       border-radius: 15px;
     }
     h1{
@@ -64,9 +65,9 @@
 </head>
 <body>
 
-  <div class="qr-container">
-   <div class="qr-image">
-     <img src="/images/image-qr-code.png" alt="">
+  <div role="container" class="qr-container">
+   <div role="qr-img" class="qr-image">
+     <img role="img" src="./images/image-qr-code.png" alt="QR code to frontendmentor.io">
    </div>
  <div class="text">
     <h1>Improve your front-end skills by building projects</h1>
